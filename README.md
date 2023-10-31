@@ -1,8 +1,6 @@
 # Predicting-Mosfet-Drain-Current
 MOSFET is a unipolar device where the current conduction mechanism takes place by the majority of carriers. A MOS transistor consists of four terminals called a drain, gate, source, and substrate. In most cases, the substrate is connected to the ground for N-channel MOSFET and to supply voltage for P-channel MOSFET. The variation in drain current takes place due to the variation in drain-source or gate-source voltage.
 
-Commercial circuit simulator such as CADENCE uses the SPICE engine to simulate electronic circuits. While coming to VLSI level integration, millions of MOS transistors are connected together to form the chip. Since prototype development is a costly matter, before fabrication, the design is passed through several testing and simulation levels.
-
 While talking about semiconductor device modeling, basically reflects a set of equations that describe current-voltage characteristics, capacitance, and maybe some other parameters depending upon the type of the device. For a MOS transistor, the drive current i.e. the drain current depends upon terminal voltages such as drain and gate voltages. Also, it depends upon geometry such as length, width, and material properties such as mobility, carrier velocity, etc. While developing a model, all these parameters need to be carefully considered.
 
 There are three approaches to developing a model of any semiconductor device.
